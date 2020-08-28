@@ -29,7 +29,7 @@ async def _(event):
     await event.edit(f"Online settato.") 
     while True:
         Online = time.strftime("[𝖔𝖓𝖑𝖎𝖓𝖊]")
-        name = f"诶𝗔.𝗦.𝗗 MaRcO [𝖔𝖓𝖑𝖎𝖓𝖊]"
+        name = f"MaRcO [𝖔𝖓𝖑𝖎𝖓𝖊]"
         logger.info(name)
         try:
             await bot(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
@@ -61,7 +61,7 @@ async def _(event):
     await event.edit(f"Offline settato.") 
     while True:
         Online = time.strftime("[𝖔𝖋𝖋𝖑𝖎𝖓𝖊]")
-        name = f"诶𝗔.𝗦.𝗗 MaRcO [𝖔𝖋𝖋𝖑𝖎𝖓𝖊]"
+        name = f"MaRcO [𝖔𝖋𝖋𝖑𝖎𝖓𝖊]"
         logger.info(name)
         try:
             await bot(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
